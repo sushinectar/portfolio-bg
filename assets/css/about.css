@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: #101014;
+  color: #e6e6ea;
+}
+
+#menu-button {
+  font-size: 2rem;
+  margin: 0 0 0 1rem;
+  padding: 0.5rem;
+  color: #e6e6ea;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: none;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 1rem;
+  margin: 0 0 2rem 0;
+}
+
+.menu-list.open {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #e6e6ea;
+}
+
+.container {
+  margin: 1rem;
+}
+
+.container h1 {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.list {
+  border-radius: 15px;
+  background-color: #202024;
+  padding: 1rem;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 7px;
+  background-color: #303034;
+}

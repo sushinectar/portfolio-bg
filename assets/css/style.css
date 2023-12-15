@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: #101014;
+  color: #e6e6ea;
+}
+
+#menu-button {
+  font-size: 2rem;
+  margin: 0 0 0 1rem;
+  padding: 0.5rem;
+  color: #e6e6ea;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: none;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 1rem;
+  margin: 0 0 2rem 0;
+}
+
+.menu-list.open {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #e6e6ea;
+}
+
+.collapse {
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #202024;
+}
+
+.info1 {
+  height: 5rem;
+}
+
+.info1 .info1-img img {
+  width: 3rem;
+  padding: 1rem;
+  border-radius: 100px;
+}
+
+.info1-text {
+  padding: 1.3rem 0 0 0;
+}
+
+.info1 h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info1 h2 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #9d9da1;
+}
+
+.info2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.info2 img {
+  width: 7rem;
+  margin: 0 0 1rem 0;
+  border-radius: 100px;
+}
+
+.info2 .info2-img {
+  display: flex;
+  justify-content: center;
+}
+
+.info2-text {
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem 0 0 0;
+}
+
+.info2-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 1.5rem 0;
+}
+
+.info2-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 2rem 0;
+  gap: 0.2rem;
+}
+
+.icon-location:before {
+  content: "\e947";
+}
+
+.icon-user:before {
+  content: "\e971";
+}
+
+.icon-envelop:before {
+  content: "\e945";
+}
+
+.info2 h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info2 h2,
+p {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #9d9da1;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media button {
+  width: 15rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #101014;
+  background-color: #e6e6ea;
+  border: none;
+  border-radius: 10px;
+}
+
+#toggleButton {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 6.1rem;
+  right: 2.5rem;
+  font-size: 1rem;
+  color: #e6e6ea;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transform: rotate(270deg);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.img-banner {
+  width: 21.5rem;
+  height: 10rem;
+  border-radius: 20px;
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.main-text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-text h2 {
+  font-size: 1rem;
+  color: #9d9da1;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projects img {
+  width: 90vw;
+  border-radius: 10px;
+}
